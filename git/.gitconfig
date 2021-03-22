@@ -2,3 +2,5 @@
   path = .gitconfig-github
 [includeIf "gitdir:gitlab/"]
   path = .gitconfig-gitlab
+[core]
+	autocrlf = input
