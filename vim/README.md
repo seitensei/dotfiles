@@ -1,0 +1,1 @@
+This vim configuration requires git to be installed as a prerequisite.

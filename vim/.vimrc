@@ -1,3 +1,8 @@
+"Vundle bootstrap
+if !filereadable($HOME . '/.vim/bundle/vundle/.git/config') && confirm("Vundle is not installed. Clone Vundle?","Y\nn") == 1
+    exec '!git clone https://github.com/VundleVim/Vundle.vim ~/.vim/bundle/Vundle.vim'
+endif
+
 set nocompatible
 filetype off
 
