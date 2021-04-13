@@ -3,8 +3,10 @@
 [includeIf "gitdir:gitlab/"]
   path = .gitconfig-gitlab
 [core]
-	autocrlf = input
+  autocrlf = input
 [init]
-	defaultBranch = main
+  defaultBranch = main
 [submodule]
   recurse = true
+[fetch]
+  prune = true
